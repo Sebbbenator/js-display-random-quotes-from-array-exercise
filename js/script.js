@@ -8,11 +8,14 @@ const quotes = [
     "livet er som en fisk, nogle gange er det bare en tør sild.",
     "Mathilde er som en solstråle på en regnvejrsdag.",
     "NEVER GONNA GIVE YOU UP, NEVER GONNA LET YOU DOWN!",
+    "Jeg så varm det kriminelt",
+    "jeg er geden, over alle geder",
+    "Booster er menneskes benzin",
 ]
 
 function getRandomQuote() {
   if (quotes.length === 0) {
-    return "No quotes available";
+    return "ikke flere citater";
   }
 
   const randomIndex = Math.floor(Math.random() * quotes.length);
